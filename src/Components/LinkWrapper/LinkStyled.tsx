@@ -5,7 +5,7 @@ const LinkStyled = styled(Link)`
     color: black;
     font-size: 20px;
     font-weight: bold;
-    /* padding-left: 40px; */
+    padding-right: 30px;
     text-decoration: none;
     &:hover {
         color: darkcyan;

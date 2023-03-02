@@ -1,10 +1,12 @@
 import React from "react"
 import NavigationStyled from "./NaviagationStyled"
 import LinkWrapper from "../LinkWrapper"
+import { CompanyName } from "./CompanyName"
 
 function Navigation() {
     return (
         <>
+            <CompanyName>the skin studio by nikki</CompanyName>
             <NavigationStyled>
                 <LinkWrapper to={"../Home"} target={"_blank"} ariaLabel={"home"}>Home</LinkWrapper>
                 <LinkWrapper to={"../About"} target={"_blank"} ariaLabel={"about"}>About</LinkWrapper>
