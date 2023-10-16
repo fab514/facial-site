@@ -1,6 +1,6 @@
 interface LinkWrapperProperties {
     target: "_blank",
-    ariaLabel: string,
+    ariaLabel?: string,
     children: string
     to: string
 }

@@ -5,17 +5,16 @@ import { CompanyName } from "./CompanyName"
 
 function Navigation() {
     return (
-        <>
-            <CompanyName>the skin studio by nikki</CompanyName>
-            <NavigationStyled>
-                <LinkWrapper to={"../Home"} target={"_blank"} ariaLabel={"home"}>Home</LinkWrapper>
-                <LinkWrapper to={"../About"} target={"_blank"} ariaLabel={"about"}>About</LinkWrapper>
-                <LinkWrapper to={"../Gallery"} target={"_blank"} ariaLabel={"gallery"}>Gallery</LinkWrapper>
-                <LinkWrapper to={"../Details"} target={"_blank"} ariaLabel={"details"}>Details</LinkWrapper>
-                <LinkWrapper to={"../Testimonials"} target={"_blank"} ariaLabel={"testimonials"}>Testimonials</LinkWrapper>
-                <LinkWrapper to={"../Contact"} target={"_blank"} ariaLabel={"contact"}>Contact</LinkWrapper>
+        <div>
+            <NavigationStyled data-testid="site navigation">
+                <CompanyName to={"../Home"} target={"_blank"}>the skin studio by nikki</CompanyName>
+                <LinkWrapper to={"../About"} target={"_blank"}>About</LinkWrapper>
+                <LinkWrapper to={"../Gallery"} target={"_blank"}>Gallery</LinkWrapper>
+                <LinkWrapper to={"../Details"} target={"_blank"}>Details</LinkWrapper>
+                <LinkWrapper to={"../Testimonials"} target={"_blank"}>Testimonials</LinkWrapper>
+                <LinkWrapper to={"../Contact"} target={"_blank"}>Contact</LinkWrapper>
             </NavigationStyled>
-        </>
+        </div>
     )
 }
 

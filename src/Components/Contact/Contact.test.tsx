@@ -7,8 +7,8 @@ import Contact from './index';
 import React from "react";
 
 describe('Contact Page', () => {
-    render(<Contact />)
     it('renders contact page', () => {
+        render(<Contact />)
         expect(screen.getByText('This is the Contact Section!')).toBeTruthy();
     })
 })
