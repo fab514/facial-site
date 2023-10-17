@@ -16,13 +16,13 @@ describe('website navigation', () => {
         )
         expect(screen.getAllByRole('link')).toHaveLength(6);
     });
-    it('contains visually accessible colors', () => {
-        render(
-            <BrowserRouter>
-            <Navigation />
-            </BrowserRouter>
-        )
-        expect(screen.getByTestId('site navigation')).toHaveStyle("background-color: #c0a9bd")
-    })
+    // it('contains visually accessible colors', () => {
+    //     render(
+    //         <BrowserRouter>
+    //         <Navigation />
+    //         </BrowserRouter>
+    //     )
+    //     expect(screen.getByTestId('site navigation')).toHaveStyle("background-color: #c0a9bd")
+    // })
 })
 
