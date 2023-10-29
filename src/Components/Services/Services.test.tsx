@@ -10,11 +10,15 @@ describe("Services Page", () => {
   });
   it("includes a h2 element", () => {
     render(<Services />);
-    expect(screen.getByRole("heading")).toBeTruthy();
+    expect(screen.getAllByRole("heading")).toBeTruthy();
   });
   it("renders as an unordered list with list items", () => {
     render(<Services />);
     expect(screen.getByRole("list")).toBeTruthy();
-    expect(screen.getAllByRole("listitem")).toHaveLength(4);
+    expect(screen.getAllByRole("listitem")).toHaveLength(9);
+  });
+  it("renders a set of image elements for each service", () => {
+    render(<Services />);
+    expect(screen.getAllByRole("img")).toHaveLength(9);
   });
 });
