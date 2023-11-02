@@ -13,11 +13,13 @@ export const ServiceTitle = styled("h3")`
 export const ServiceListItem = styled("li")`
   display: flex;
   margin-bottom: 25px;
+  max-height: 250px;
 `;
 
 export const ServiceDiv = styled("div")`
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 `;
 
 export const ServiceImage = styled("img")`

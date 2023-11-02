@@ -13,14 +13,4 @@ describe("website navigation", () => {
     );
     expect(screen.getAllByRole("link")).toHaveLength(5);
   });
-  //   it("contains visually accessible colors", () => {
-  //     render(
-  //       <BrowserRouter>
-  //         <Navigation />
-  //       </BrowserRouter>
-  //     );
-  //     expect(screen.getByTestId("site navigation")).toHaveStyleRule(
-  //       "background-color: #c0a9bd"
-  //     );
-  //   });
 });
