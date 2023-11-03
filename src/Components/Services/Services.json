@@ -1,0 +1,37 @@
+[
+    {
+        "src": "src\\assets\\images\\woman-facial.jpg",
+        "alt": "woman-facial",
+        "title": "The Ultimate HydraWorks Facial",
+        "price": "1hr $150/ 90min $199",
+        "description": "A Water microdermabrasion hydration therapy, serums infusion, oxygen infusion extractions and LED Light treatment."
+    },
+    {
+        "src": "src\\assets\\images\\facial-massage.jpg",
+        "alt": "massage",
+        "title": "Custom Facial",
+        "price": "1hr $69",
+        "description": "A customized facial is a completely personalized facial designed to treat any and all skin concerns you are facing."
+    },
+    {
+        "src": "src\\assets\\images\\citrus.jpg",
+        "alt": "citrus",
+        "title": "Vitamin C Infusion Treatment",
+        "price": "1hr $80",
+        "description": "This relaxing vitamin C facial will help give your skin a healthy and radiant glow, targeting wrinkles, uneven skin colour and sun damage."
+    },
+    {
+        "src": "src\\assets\\images\\warm-salon.jpg",
+        "alt": "warm salon",
+        "title": "Acne Facial",
+        "price": "$79/ Problematic $120",
+        "description": "Designed to combat acne, blackheads and blemishes with a minimal amount of side effects. They focus mainly on cleanses, extractions, facial masks and blue light therapy to clean and invigorate your skin."
+    },
+    {
+        "src": "src\\assets\\images\\salon-meditation.jpg",
+        "alt": "salon meditation",
+        "title": "Teem Facial",
+        "price": "1hr $70",
+        "description": "Designed to address breakouts that are associated with adolescent changes that affect teenager skin."
+    }
+]
