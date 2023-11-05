@@ -30,8 +30,29 @@
     {
         "src": "src\\assets\\images\\salon-meditation.jpg",
         "alt": "salon meditation",
-        "title": "Teem Facial",
+        "title": "Tean Facial",
         "price": "1hr $70",
         "description": "Designed to address breakouts that are associated with adolescent changes that affect teenager skin."
+    },
+    {
+        "src": "src\\assets\\images\\chemical-peel.jpg",
+        "alt": "chemical peel",
+        "title": "Chemical Peels",
+        "price": "$99/30 min",
+        "description": "A technique used to improve and smooth the texture of the skin. Chemical peels are intended to remove the outermost layers of the skin."
+    },
+    {
+        "src": "src\\assets\\images\\lavender-salon.jpg",
+        "alt": "lavender salon",
+        "title": "Back Treatment",
+        "price": "$95/45 min",
+        "description": "Designed to clarify, soften and deep cleanse the skin on the back while providing a deep moisturizing treatment which will leave you with a healthy and glowing back."
+    },
+    {
+        "src": "src\\assets\\images\\treatment.jpg",
+        "alt": "treatment",
+        "title": "Dermaplane",
+        "price": "1hr $79",
+        "description": "Used to treat deep acne scars with a hand-held instrument called a dermatome."
     }
 ]
