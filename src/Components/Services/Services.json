@@ -28,9 +28,16 @@
         "description": "Designed to combat acne, blackheads and blemishes with a minimal amount of side effects. They focus mainly on cleanses, extractions, facial masks and blue light therapy to clean and invigorate your skin."
     },
     {
+        "src": "src\\assets\\images\\microdermabrasion.jpg",
+        "alt": "microdermabrasion",
+        "title": "Microdermabrasion",
+        "price": "$89 with Infusion $120/45 min ",
+        "description": "A minimally invasive epidermal resurfacing procedure used to treat uneven skin tone/texture, photoaging, striae, melasma, and scars, including acne scars."
+    },
+    {
         "src": "src\\assets\\images\\salon-meditation.jpg",
         "alt": "salon meditation",
-        "title": "Tean Facial",
+        "title": "Teen Facial",
         "price": "1hr $70",
         "description": "Designed to address breakouts that are associated with adolescent changes that affect teenager skin."
     },
